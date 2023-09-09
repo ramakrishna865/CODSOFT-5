@@ -12,7 +12,7 @@ from imblearn.metrics import classification_report_imbalanced
 from collections import Counter
 
 
-data = pd.read_csv("C:\\Users\\Rama Krishna\\Desktop\\fraud\\creditcard.csv")
+data = pd.read_csv("creditcard.csv")
 
 # Explore the dataset
 print(data.head())
